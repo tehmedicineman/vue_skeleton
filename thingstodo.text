@@ -1,0 +1,5 @@
+Use a CSS processing language for this
+	sass or less? fuck if i know or care which
+	https://webpack.js.org/loaders/sass-loader/
+
+Using an .ejs file with HtmlWebpackPlugin
