@@ -19,7 +19,7 @@ module.exports = {
 	plugins: [
 		new CleanWebpackPlugin([path.resolve(__dirname, 'dist')]), // clears the dist folder before building
 		new HtmlWebpackPlugin({ // builds the html file for us with the output file(s) in it
-			title: 'Output Management',
+			title: 'Mr. Skeleton',
 			template: 'src/index.ejs'
 		}),
 		new webpack.NamedModulesPlugin(), // added for HMR, causes relative path of module to be displayed for HMR
